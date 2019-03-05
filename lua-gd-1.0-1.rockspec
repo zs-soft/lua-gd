@@ -1,4 +1,4 @@
-package = "lua_gd"
+package = "lua-gd"
 version = "1.0-1"
 source = {
     url = "git://github.com/zs-soft/lua-gd.git",
