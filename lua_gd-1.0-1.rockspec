@@ -11,8 +11,5 @@ description = {
 }
 dependencies = {}
 build = {
-    type = "builtin",
-    modules = {
-        type = "make"
-    }
+    type = "make",
 }
