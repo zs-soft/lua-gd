@@ -8,5 +8,6 @@ lua-gd:lib-lua-gd/luagd.c
 
 install:lib-gd/.libs/libgd.so.2.0.0 lib-lua-gd/gd.so
 	cp lib-gd/.libs/libgd.so.2.0.0 /usr/lib64/
+	rm /usr/lib64/libgd.so
 	ln -s /usr/lib64/libgd.so.2.0.0 /usr/lib64/libgd.so
 	cp ./lib-lua-gd/gd.so /usr/local/lib/lua/5.1
