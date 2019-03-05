@@ -54,7 +54,7 @@ CC=gcc
 OUTFILE=gd.so
 CFLAGS=-Wall `gdlib-config --cflags` -I/usr/include/lua -O3
 GDFEATURES=`gdlib-config --features |sed -e "s/GD_/-DGD_/g"`
-LFLAGS=-shared `gdlib-config --ldflags` `gdlib-config --libs` -llua -lgd
+LFLAGS=-shared `gdlib-config --ldflags` `gdlib-config --libs` -llua  -L/usr/local/lib -lgd
 INSTALL_PATH=/usr/local/lib/lua/5.1
 
 
