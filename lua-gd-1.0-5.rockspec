@@ -1,5 +1,5 @@
 package = "lua-gd"
-version = "1.0-4"
+version = "1.0-5"
 source = {
     url = "git://github.com/zs-soft/lua-gd.git",
     branch = "master"
